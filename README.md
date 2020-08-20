@@ -1,17 +1,17 @@
 # Images adjusting
 Generated derivative images for srcset from a custom dirs sturcture and optimizes them
 
-###Install required software
+### Install required software
 ```
 sudo bash scripts/install_imagemagick.sh
 ```
 
-###Install packages
+### Install packages
 ```
 bash scripts/install_deps.sh
 ```
-###Adjust gulpfile.js to your need
-#####Example:
+### Adjust gulpfile.js to your need
+##### Example:
 ```
 const images = [
     {
@@ -20,7 +20,7 @@ const images = [
     },
     ...
 ```
-###Run gulp
+### Run gulp
 ```
 gulp
 ```
