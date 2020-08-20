@@ -40,7 +40,7 @@ gulp.task('default', (cb) => {
                     path.basename = `${path.basename}@${sizes[index]}`;
                 }))
                 .pipe(imagemin({quality: 75}))
-                .pipe(gulp.dest('dist/images'))
+                .pipe(gulp.dest(`dist/${item.path}`))
         });
     })
     cb();
